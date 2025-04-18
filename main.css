@@ -1,0 +1,40 @@
+/* display: flex – What It Does
+When you apply display: flex to a container element, you're telling the browser:
+“Lay out this element’s children in a flexible, one-dimensional row or column.”
+It turns the container into a Flex Container, and the direct children become Flex Items.
+🔹 Key Concepts
+One-dimensional = you layout elements in either a row or a column, not both at the same time (that’s for Grid).
+The flex container takes control of the layout and spacing of its items using properties like:
+justify-content → controls horizontal alignment
+align-items → controls vertical alignment
+flex-direction → sets row or column layou 
+What Happens?
+display: flex puts items in a row by default (flex-direction: row).
+justify-content: center, centers items horizontally.
+align-items: center, centers items vertically (within the container height).
+*/
+.flag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px;
+    height: 400px;
+    width: 600px;
+    border-style: solid;
+    border-color: black;
+}
+ .wh{
+    height: 393px;
+    width: 150px;
+    background-color:white;
+}
+.gr{
+    display: flex;
+    height: 400px;
+    width: 450px;
+    background-color: #1b411c;
+}
+img{
+    padding-left: 30px;
+    
+}
